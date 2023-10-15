@@ -21,7 +21,7 @@ class App{
 
     getWeather(){
         //84dc183942414da2b9ccf4c869724e4f
-        let url = `https://api.weatherbit.io/v2.0/current?lat=${this.lat}&lon=${this.lng}&key=84dc183942414da2b9ccf4c869724e&include=minutely?units=si`;
+        let url = `https://api.weatherbit.io/v2.0/current?lat=${this.lat}&lon=${this.lng}&key=84dc183942414da2b9ccf4c869724ef&include=minutely?units=si`;
         fetch(url).then(response => {
             //console.log(response);
             return response.json();
